@@ -11,6 +11,11 @@ This is a git Manual
 
 5. Push the changes in your local repository to GitHub. git push origin master
 
+# Install TensorFlow with anaconda
 
+conda create -n tensorflow python=3.5
+source activate tensorflow
+conda install pandas matplotlib jupyter notebook scipy scikit-learn
+pip install tensorflow
 
 
