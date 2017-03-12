@@ -7,15 +7,18 @@ This is a git Manual
 
 3. Commit the files that you've staged in your local repository. git commit -m "First commit"
 
-4. In Terminal, add the URL for the remote repository where your local repository will be pushed. git remote add origin remote repository URL and git remote -v
+4. In Terminal, add the URL for the remote repository where your local repository will be pushed. git remote add origin remote URL and git remote -v
 
 5. Push the changes in your local repository to GitHub. git push origin master
 
 # Install TensorFlow with anaconda
 
-conda create -n tensorflow python=3.5
-source activate tensorflow
-conda install pandas matplotlib jupyter notebook scipy scikit-learn
-pip install tensorflow
+1. conda create -n tensorflow python=3.5
+
+2. source activate tensorflow
+
+3. conda install pandas matplotlib jupyter notebook scipy scikit-learn
+
+4. pip install tensorflow
 
 
